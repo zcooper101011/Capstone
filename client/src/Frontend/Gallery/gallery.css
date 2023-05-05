@@ -1,0 +1,62 @@
+.navigation {
+  font-family: Bahnschrift;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 35px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+}
+
+.navigation .navigation-link {
+  margin-right: 4.5rem;
+}
+
+#gallery .galleryTitle {
+  font-family: 'Anydore';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 90px;
+  color: rgba(248,49,73,1);
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 30px;
+}
+
+#gallery .imageContainer {
+  text-align: center;
+  margin-bottom: 200px;
+}
+
+#gallery .splash {
+  min-height: 100vh;
+  background-image: url("./galleryTop.png");
+  background-size: cover;
+  background-position: 300px 0px;
+  background-repeat: no-repeat;
+}
+
+.splash .title {
+  font-family: 'Anydore';
+  margin-top: 145px;
+  font-size: 146px;
+  text-align: center;
+  line-height: 1.05;
+}
+
+.splash .description {
+  font-family: 'Bahnschrift';
+  font-size: 30px;
+  font-weight: lighter;
+  text-align: left;
+  line-height: 1.25;
+  max-width: 590px;
+}
+
+@media (min-width: 576px) {
+  .splash {
+    padding: 62px 138px 115px;
+  }
+}

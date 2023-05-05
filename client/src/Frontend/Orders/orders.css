@@ -1,0 +1,71 @@
+.navigation {
+    font-family: Bahnschrift;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+  
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+  }
+  
+  .navigation .navigation-link {
+    margin-right: 4.5rem;
+  }
+  
+  #Orders .menuType {
+    font-family: 'Anydore';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 96px;
+    color: rgba(247,136,149,1);
+    text-align: center;
+    margin-top: 80px;
+  }
+  
+  #Orders .menuItemDescription {
+    font-family: 'Bahnschrift';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 27px;
+    color: rgba(154,154,154,1);
+  }
+  
+  #Orders .menuItem {
+    font-family: 'Bahnschrift';
+      font-style: normal;
+      font-weight: bold;
+      font-size: 54px;
+      color: rgba(0,0,0,1);
+  }
+  
+  #Orders .splash {
+    min-height: 100vh;
+    background-image: url("./menu.png");
+    background-size: cover;
+    background-position: 300px 0px;
+    background-repeat: no-repeat;
+  }
+  
+  .splash .title {
+    font-family: 'Anydore';
+    margin-top: 145px;
+    font-size: 146px;
+    text-align: center;
+  }
+  
+  .splash .description {
+    font-family: 'Bahnschrift';
+    font-size: 30px;
+    font-weight: lighter;
+    text-align: left;
+    line-height: 1.25;
+    max-width: 590px;
+  }
+  
+  @media (min-width: 576px) {
+    .splash {
+      padding: 62px 138px 115px;
+    }
+  }

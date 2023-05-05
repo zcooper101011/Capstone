@@ -1,0 +1,45 @@
+#FrontEndFooter {
+  background-color: rgba(247, 136, 149, 1);
+  padding: 49px 115px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+#FrontEndFooter .divider {
+  margin: 0px 50px;
+  border: 2px solid white;
+  border-radius: 3%;
+  height: 100px;
+}
+
+#FrontEndFooter .phone {
+  font-family: "Bahnschrift";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 35px;
+  color: rgba(255, 255, 255, 1);
+}
+#FrontEndFooter .description {
+  font-family: "Bahnschrift";
+  font-style: normal;
+  font-weight: lighter;
+  font-size: 25px;
+  color: rgba(255, 255, 255, 1);
+}
+
+#FrontEndFooter .follow {
+  text-align: right;
+  margin-left: auto;
+}
+
+#FrontEndFooter .follow div {
+  font-family: Bahnschrift;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 46px;
+  color: rgba(255, 255, 255, 1);
+}
+
+#FrontEndFooter .follow #facebook {
+  margin-right: 24px;
+}

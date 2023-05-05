@@ -1,0 +1,32 @@
+.PageTemplateContainer {
+  display: flex;
+  min-height: 100vh;
+}
+
+.Navigation {
+  display: flex;
+  flex-direction: column;
+  background-color: #83c6a6;
+}
+
+.Navigation a{
+  color: #0244ad;
+  text-decoration: none;
+  padding: 12px 24px;
+}
+
+.Navigation a:hover{
+  color: white;
+  text-decoration: none;
+  padding: 12px 24px;
+  background-color: #0244ad;
+}
+
+.rdt_TableCol {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.rdt_TableCell {
+  font-size: 16px;
+}
